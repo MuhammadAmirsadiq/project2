@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@500&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Part{
+    /* border: 1px solid black; */
+    width: 95%;
+    text-align: center;
+}
+.Part h1{
+font-size: 2rem;
+animation: colorchange 5s infinite alternate;
+}
+.Part h2{
+    margin-top: 15%;
+}
+body{
+    font-family: 'Poltawski Nowy', serif;
+}
+@keyframes colorchange {
+ 0%{
+    color: red;
+ }
+    10%{
+        color: aqua;
+    }
+
+    15%{
+        color:gold;
+    }
+    20%{
+        color: green;
+    }
+    25%{
+        color: gray;
+    }
+    30%{
+        color: purple;
+    }
+    50%{
+        color: rgb(224, 162, 29);
+    }
+    80%{
+        color:violet;
+    }
+    90%{
+        color: black;
+    }
+    100%{
+        color:lawngreen;
+    }
+
+
+
+}
